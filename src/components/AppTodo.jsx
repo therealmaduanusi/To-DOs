@@ -35,7 +35,6 @@ function App() {
 
   const saveEditTodo = (index) => {
     const newTodos = [...todos];
-    console.log(newTodos);
     newTodos[index].text = editingText;
     setTodos(newTodos);
     setEditingIndex(null);
