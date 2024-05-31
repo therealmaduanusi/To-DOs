@@ -18,7 +18,7 @@ function Todo(props) {
           ) : (
             <>
               <button className='setBtn' onClick={() => props.editTodo(props.index)}> <span>Edit</span></button>
-              <button onClick={() => props.deleteTodo(props.index)}>Delete</button>
+              <button className='deleteBtn' onClick={() => props.deleteTodo(props.index)}>Delete</button>
             </>
           )}
         </div>

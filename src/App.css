@@ -9,6 +9,7 @@
   background: #f1f5f8;
   background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
   background-size: 25px 25px;
+  border-radius: 10px;
 }
 
 .App > h1 {
@@ -41,7 +42,7 @@
 
 input[type="text"] {
   padding: 20px 10px;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Space Mono", monospace;
   background-color: transparent;
   width: 70%;
   border: 1px solid #ccc;
@@ -56,7 +57,7 @@ button {
   cursor: pointer;
   border-radius: 4px;
   outline: none;
-  font-family: "Architects Daughter", cursive;
+  font-family: "Space Mono", monospace;
 }
 
 button:hover {
@@ -97,7 +98,7 @@ ul {
 }
 
 .todo input[type="text"] {
-  padding: 5px;
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -106,7 +107,9 @@ ul {
   display: flex;
   gap: 5px;
 }
-
+.deleteBtn {
+  color: #f1f5f8;
+}
 
 @media (max-width: 350px) {
   input[type="text"] {
